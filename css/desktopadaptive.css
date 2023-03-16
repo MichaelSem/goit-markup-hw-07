@@ -683,13 +683,30 @@ footer {
         height: 100vh;
         overflow-x: hidden;
     }
+
+    .ul-row {
+        display: flex;
+        list-style: none;
+        gap: 40px;
+        margin-left: 76px;
+    }
+
+    .contact-info-list {    
+        display: flex;
+    }
     
+    .main-page-bg {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) ,  url(../images/people-office1.png);
+    }
+
     .desc-photos-section {
         display: block;
     }
 
     .container {
         width: 1128px;
+        padding: 0 15px;
+        margin: 0 auto;
     }
 
     .goals-logobox {
@@ -698,9 +715,64 @@ footer {
 
     .goals-list {
         flex-wrap: nowrap;
+        gap: 24px;
+    }
+
+    .goals-list-titles {
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        text-align: left;
+        color: var(--Navy-blue-color);
     }
 
     .members-list {
         flex-wrap: nowrap;
+        gap: 24px;
+    }
+
+    .footer-flex {
+        flex-wrap: nowrap;
+        gap: 0;
+    }
+
+    .footer-icons-div {
+        margin-left: 120px;
+        margin-right: 80px;
+    }
+
+    .footer-logo {
+        text-align: left;
+    }
+
+    .footer-titles {
+        text-align: left;
+    }
+
+    .footer-form {
+        flex-wrap: nowrap;
+    }
+
+    .footer-input {
+        width: 264px;
+    }
+
+    .section-flex {
+        padding: 120px 0;
+    }
+
+    .customers-list {
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
+
+    .product-list {
+        width: 1228px;
+        justify-content: normal;
+    }
+
+    .buttons-list {
+        justify-content: center;
     }
 }

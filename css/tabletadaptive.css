@@ -1,0 +1,124 @@
+@media screen and (min-width:768px) and (max-width:1439px) { /*без max-width:1440px правило з 768 юере пріоритет нвд правилом з 1440 з файлу ./css/desktopadaptive.css*/
+    body {
+        height: 100vh;
+        overflow-x: hidden;
+    }
+    
+    .header-flex {
+        margin: 0;
+    }
+
+    .header-logo {
+        padding: 24px 0;
+    }
+
+    .header-paddings {
+        padding: 24px 0;
+    }
+
+    .contact-info-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-left: 122px;
+    }
+
+    .ul-row {
+        display: flex;
+        list-style: none;
+        gap: 40px;
+        margin-left: 76px;
+    }
+    
+    .main-page-bg {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) ,  url(../images/tablet-bg.jpg);
+    }
+
+    .container {
+        padding: 0 16px;
+        width: 552px;
+    }
+
+    .goals-products-container {
+        width: 736px;
+        padding: 0 16px;
+        margin: 0 auto;
+    }
+
+    .goals-list {
+        width: 736px;
+        column-gap: 24px;
+        row-gap: 72px;
+        justify-content: normal;
+    }
+
+    .goals-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+        width: 356px;
+    }
+
+    .goals-list-titles {
+        text-align: left;
+    }
+
+    .members-list {
+        width: 552px;
+        column-gap: 24px;
+        row-gap: 64px;
+    }
+
+    .footer-flex {
+        justify-content: normal;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+
+    .footer-logo {
+        text-align: left;
+    }
+
+    .footer-titles {
+        text-align: left;
+    }
+
+    .footer-form {
+        flex-wrap: nowrap;
+    }
+
+    .footer-input {
+        width: 264px;
+    }
+
+    .section-flex {
+        padding: 120px 0;
+    }
+
+    .customers-list {
+        width: 552px;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+
+    .product-list {
+        width: 736px;
+        justify-content: normal;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+
+    .main-section-portfolio {
+        width: 736px;
+    }
+
+    .product-card {
+        width: 356px;
+    }
+
+    .buttons-list {
+        justify-content: center;
+    }
+}
