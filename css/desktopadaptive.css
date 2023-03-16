@@ -1,3 +1,4 @@
+/*
 html {
     width: 100%;
     overflow-x: hidden;
@@ -6,7 +7,6 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--Navy-blue-color);
-    width: 100%;
     margin: auto;
     overflow-x: hidden;
     background-color: var(--white-color);
@@ -53,7 +53,7 @@ img {
 }
 
 .container {
-    max-width: 1128px;
+    max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -74,7 +74,7 @@ img {
 }
 
 .ul_row {
-    display: none;
+    display: flex;
     list-style: none;
     gap: 40px;
     margin-left: 76px;
@@ -86,7 +86,7 @@ img {
 }
 
 .contact-info-list {
-    display: none;
+    display: flex;
     list-style: none;
 }
 
@@ -128,7 +128,7 @@ img {
     font-weight: 500;
 }
 
-.main-page-bg { /* Максимальна ширина картинки не дозволяе бекграунду розстягнутися на весь єкран */
+.main-page-bg { /* Максимальна ширина картинки не дозволяе бекграунду розстягнутися на весь єкран *//*
     padding: 188px 0;
     max-width: 1440px;
     margin: 0 auto;
@@ -211,25 +211,13 @@ footer {
     list-style: none;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-around;
-    gap: 72px;
-}
-
-.goals-list-titles {
-    font-family: 'Roboto';
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.1;
-    text-align: center;
-    color: var(--Navy-blue-color);
+    gap: 24px;
 }
 
 .members-list {
     list-style: none;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     gap: 24px;
 }
 
@@ -241,25 +229,26 @@ footer {
     padding: 0;
 }
 
-.desc-photos-section {
-    display: none;
-}
-
 .buttons-list {
     display: flex;
     gap: 24px;
     list-style: none;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    margin-bottom: 48px;
+    justify-content: center;
+    margin-bottom: 72px;
 }
 
 .section-flex {
-    padding: 96px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .main-section-portfolio {
-    padding: 48px 0;
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.goals-section {
+    padding-bottom: 0;
 }
 
 .cloud-bg {
@@ -363,8 +352,6 @@ footer {
 .customers-list {
     list-style: none;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     gap: 24px;
 }
 
@@ -395,7 +382,7 @@ footer {
 }
 
 .goals-logobox {
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 264px;
@@ -436,19 +423,12 @@ footer {
 
 .footer-flex {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 72px;
 }
 
 .icons-footer {
     gap: 16px;
     display: flex;
     list-style: none;
-}
-
-.footer-logo {
-    text-align: center;
 }
 
 .circle-footer {
@@ -472,12 +452,11 @@ footer {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--white-color);
-    text-align: center;
     line-height: 1.5;
 }
 
 .footer-input {
-    width: 398px;
+    width: 264px;
     height: 40px;
     padding: 8px 16px;
     color: var(--white-color);
@@ -487,10 +466,8 @@ footer {
     box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
-.footer-form {
+.footer-subscribtion-gap {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     gap: 24px;
 }
 
@@ -508,6 +485,11 @@ footer {
     border-radius: 4px;
     border: none;
     color: var(--white-color);
+}
+
+.footer-icons-div {
+    margin-left: 120px;
+    margin-right: 80px;
 }
 
 .backdrop.is-hidden {
@@ -694,4 +676,31 @@ footer {
     background-position: center;
     background-size: 10px 8px;
     border: 1px solid var(--Iris-color);
+}
+*/
+@media screen and (min-width:1440px) {
+    body {
+        height: 100vh;
+        overflow-x: hidden;
+    }
+    
+    .desc-photos-section {
+        display: block;
+    }
+
+    .container {
+        width: 1128px;
+    }
+
+    .goals-logobox {
+        display: flex;
+    }
+
+    .goals-list {
+        flex-wrap: nowrap;
+    }
+
+    .members-list {
+        flex-wrap: nowrap;
+    }
 }
