@@ -1,4 +1,4 @@
-@media screen and (min-width:768px) and (max-width:1439px) { /*без max-width:1440px правило з 768 юере пріоритет нвд правилом з 1440 з файлу ./css/desktopadaptive.css*/
+@media screen and (min-width:768px) and (max-width:1430px) { /*без max-width:1440px правило з 768 юере пріоритет нвд правилом з 1440 з файлу ./css/desktopadaptive.css*/
     body {
         height: 100vh;
         overflow-x: hidden;
