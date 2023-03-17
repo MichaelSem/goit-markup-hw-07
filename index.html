@@ -33,6 +33,65 @@
                         </li>
                     </ul>
                 </address>
+                <button class="header-burger js-open-menu" type="button">
+                    <svg width="29.54" height="18.62">
+                        <use href="./images/sprite.svg#icon-burger-menu"></use>
+                    </svg>
+                </button>
+                <div class="mobile-menu js-menu-container">
+                    <button class="menu-close-button js-close-menu">
+                        <svg width="8px" height="8px">
+                            <use href="./images/sprite.svg#icon-cross"></use>
+                        </svg>
+                    </button>
+                    <ul class="menu-pages-list">
+                        <li><a class="menu-pages menu-current" href="./index.html">Studio</a></li>
+                        <li><a class="menu-pages" href="./portfolio.html">Portfolio</a></li>
+                        <li><a class="menu-pages" href="./contacts.html">Contacts</a></li>    
+                    </ul>
+                    <address>
+                        <ul class="menu-contacts-list">
+                            <li>
+                                <a class="menu-phone contacts-menu" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                            </li>
+                            <li>
+                                <a class="menu-email contacts-menu" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                            </li>
+                        </ul>
+                        <div class="menu-icons-div">
+                            <ul class="icons-menu">
+                                <li class="circle-li">
+                                    <a class="circle-menu">
+                                        <svg width="24" height="24">
+                                            <use href="./images/sprite.svg#icon-instagram-2"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="circle-li">
+                                    <a class="circle-menu">
+                                        <svg width="24" height="24">
+                                            <use href="./images/sprite.svg#icon-twitter-1"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="circle-li">
+                                    <a class="circle-menu">
+                                        <svg width="24" height="24">
+                                            <use href="./images/sprite.svg#icon-facebook-1"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="circle-li">
+                                    <a class="circle-menu">
+                                        <svg width="24" height="24">
+                                            <use href="./images/sprite.svg#icon-linkedin-1"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </address>
+                </div>
             </div>
         </header>
         <main>
@@ -365,7 +424,7 @@
             <footer>
                 <div class="container">
                     <div class="footer-flex">
-                        <div>
+                        <div class="footer-desc-container">
                             <a class="logo footer-logo" href="index.html"><span style="color: #4D5AE5;">WEB</span><span style="color: #fff;">STUDIO</span></a>
                             <p class="footer-desc">Increase the flow of customers 
                             and sales for your business with digital marketing & growth solutions.</p>
@@ -401,7 +460,7 @@
                                         </svg>
                                     </a>
                                 </li>
-                                </ul>
+                            </ul>
                         </div>
                         <div>
                             <h3 class="footer-titles">Subscribe</h3>
@@ -418,6 +477,7 @@
                     </div>
                 </div>
             </footer>
+        <script src="./js/mobile-menu.js"></script>            
         <script src="./js/modal.js"></script>
     </body>
 </html>

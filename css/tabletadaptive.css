@@ -1,4 +1,4 @@
-@media screen and (min-width:768px) and (max-width:1430px) { /*без max-width:1440px правило з 768 юере пріоритет нвд правилом з 1440 з файлу ./css/desktopadaptive.css*/
+@media screen and (min-width:768px) and (max-width:1439px) { /*без max-width:1440px правило з 768 юере пріоритет нвд правилом з 1440 з файлу ./css/desktopadaptive.css*/
     body {
         height: 100vh;
         overflow-x: hidden;
@@ -20,7 +20,7 @@
         display: flex;
         flex-wrap: wrap;
         gap: 12px;
-        margin-left: 122px;
+        margin-left: 122px; /*По якійсь причині у мене не працював марджин ауто, тому поставив фіксований*/
     }
 
     .ul-row {
@@ -28,6 +28,10 @@
         list-style: none;
         gap: 40px;
         margin-left: 76px;
+    }
+
+    .header-burger {
+        display: none;
     }
     
     .main-page-bg {

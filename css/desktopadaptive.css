@@ -694,6 +694,10 @@ footer {
     .contact-info-list {    
         display: flex;
     }
+
+    .header-burger {
+        display: none;
+    }
     
     .main-page-bg {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) ,  url(../images/people-office1.png);
@@ -737,9 +741,17 @@ footer {
         gap: 0;
     }
 
+    .footer-desc {
+        width: 264px;
+    }
+
     .footer-icons-div {
         margin-left: 120px;
         margin-right: 80px;
+    }
+
+    .icons-footer {
+        flex-wrap: nowrap;
     }
 
     .footer-logo {
