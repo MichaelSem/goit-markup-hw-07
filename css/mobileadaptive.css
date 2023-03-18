@@ -1,0 +1,25 @@
+@media screen and (min-width:480px) and (max-width:768px) {
+    .conatiner {
+        width: 428px;
+    }
+    
+    .modal {
+        width: 408px;
+    }
+
+    .form-container {
+        width: 360px;
+    }
+
+    .input {
+        width: 360px;
+    }
+
+    .enter-comment {
+        width: 360px;
+    }
+
+    .send-button {
+        margin: 21px auto 0;
+    }
+}

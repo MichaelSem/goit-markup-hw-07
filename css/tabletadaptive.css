@@ -1,4 +1,4 @@
-@media screen and (min-width:768px) and (max-width:1439px) { /*без max-width:1440px правило з 768 юере пріоритет нвд правилом з 1440 з файлу ./css/desktopadaptive.css*/
+@media screen and (min-width:768px) and (max-width:1199px) { /*без max-width:1440px правило з 768 юере пріоритет нвд правилом з 1440 з файлу ./css/desktopadaptive.css*/
     body {
         height: 100vh;
         overflow-x: hidden;
@@ -23,6 +23,14 @@
         margin-left: 122px; /*По якійсь причині у мене не працював марджин ауто, тому поставив фіксований*/
     }
 
+    .contacts-menu {
+        font-size: 12px;
+    }
+
+    .contacts-right-margin {
+        margin-right: 0;
+    }
+
     .ul-row {
         display: flex;
         list-style: none;
@@ -33,24 +41,23 @@
     .header-burger {
         display: none;
     }
+
+    .mobile-menu {
+        display: none;
+    }
     
     .main-page-bg {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) ,  url(../images/tablet-bg.jpg);
     }
 
     .container {
-        padding: 0 16px;
-        width: 552px;
-    }
-
-    .goals-products-container {
-        width: 736px;
+        width: 768px;
         padding: 0 16px;
         margin: 0 auto;
     }
 
     .goals-list {
-        width: 736px;
+        width: 768px;
         column-gap: 24px;
         row-gap: 72px;
         justify-content: normal;
@@ -70,13 +77,12 @@
     }
 
     .members-list {
-        width: 552px;
         column-gap: 24px;
         row-gap: 64px;
     }
 
     .footer-flex {
-        justify-content: normal;
+        justify-content: center;
         column-gap: 24px;
         row-gap: 72px;
     }
@@ -102,20 +108,15 @@
     }
 
     .customers-list {
-        width: 552px;
         column-gap: 24px;
         row-gap: 72px;
     }
 
     .product-list {
-        width: 736px;
-        justify-content: normal;
+        width: 768px;
+        justify-content: center;
         column-gap: 24px;
         row-gap: 72px;
-    }
-
-    .main-section-portfolio {
-        width: 736px;
     }
 
     .product-card {
@@ -124,5 +125,25 @@
 
     .buttons-list {
         justify-content: center;
+    }
+
+    .modal {
+        width: 408px;
+    }
+
+    .form-container {
+        width: 360px;
+    }
+
+    .input {
+        width: 360px;
+    }
+
+    .enter-comment {
+        width: 360px;
+    }
+
+    .send-button {
+        margin: 21px auto 0;
     }
 }

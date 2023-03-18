@@ -678,7 +678,7 @@ footer {
     border: 1px solid var(--Iris-color);
 }
 */
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1200px) {
     body {
         height: 100vh;
         overflow-x: hidden;
@@ -786,5 +786,25 @@ footer {
 
     .buttons-list {
         justify-content: center;
+    }
+
+    .modal {
+        width: 408px;
+    }
+
+    .form-container {
+        width: 360px;
+    }
+
+    .input {
+        width: 360px;
+    }
+
+    .enter-comment {
+        width: 360px;
+    }
+
+    .send-button {
+        margin: 21px auto 0;
     }
 }
