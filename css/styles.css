@@ -192,7 +192,7 @@ img {
 .icons-menu {
     display: flex;
     list-style: none;
-    gap: 56px;
+    gap: 32px;
     margin-top: 48px;
     margin-left: 40px;
 }
@@ -242,8 +242,8 @@ img {
 }
 
 .menu-phone {
-    font-size: 36px;
-    font-weight: 700;
+    font-size: 27px;
+    font-weight: 600;
     color: var(--Ocean-color);
     text-decoration: none;
 }
@@ -256,8 +256,8 @@ img {
 
 .title {
     margin: 0 auto;
-    max-width: 495px;
-    font-size: 56px;
+    max-width: 428px;
+    font-size: 36px;
     font-weight: 700;
     line-height: 1.0714285714285714285714285714286;
     color: var(--white-color);
@@ -492,7 +492,7 @@ footer {
 }
 
 .customer-box {
-    width: 168px;
+    width: 128px;
     height: 88px;
 }
 
@@ -787,7 +787,7 @@ footer {
     display: flex;
     align-items: center;
     margin-top: 16px;
-    font-size: 12px;
+    font-size: 8px;
     line-height: 1.25;
     letter-spacing: 0.04em;
 }
@@ -796,7 +796,7 @@ footer {
     display: block;
     width: 16px;
     height: 16px;
-    margin-right: 8px;
+    margin-right: 10px;
     border: 1px solid var(--black-color);
     border-radius: 2px;
     cursor: pointer;

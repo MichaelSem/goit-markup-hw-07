@@ -705,10 +705,11 @@ footer {
 
     .desc-photos-section {
         display: block;
+        padding-top: 0;
     }
 
     .container {
-        width: 1128px;
+        width: 1158px;
         padding: 0 15px;
         margin: 0 auto;
     }
@@ -720,6 +721,11 @@ footer {
     .goals-list {
         flex-wrap: nowrap;
         gap: 24px;
+    }
+
+    .title {
+        font-size: 56px;
+        max-width: 495px;
     }
 
     .goals-list-titles {
@@ -806,5 +812,22 @@ footer {
 
     .send-button {
         margin: 21px auto 0;
+    }
+
+    .menu-phone {
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    .icons-menu {
+        gap: 56px;
+    }
+
+    .checkbox-label1 {
+        font-size: 12px;
+    }
+
+    .customer-box {
+        width: 168px;
     }
 }

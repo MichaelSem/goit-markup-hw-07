@@ -18,9 +18,9 @@
 
     .contact-info-list {
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
         gap: 12px;
-        margin-left: 122px; /*По якійсь причині у мене не працював марджин ауто, тому поставив фіксований*/
     }
 
     .contacts-menu {
@@ -48,6 +48,11 @@
     
     .main-page-bg {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) ,  url(../images/tablet-bg.jpg);
+    }
+
+    .title {
+        font-size: 56px;
+        max-width: 495px;
     }
 
     .container {
@@ -82,7 +87,6 @@
     }
 
     .footer-flex {
-        justify-content: center;
         column-gap: 24px;
         row-gap: 72px;
     }
@@ -97,10 +101,15 @@
 
     .footer-form {
         flex-wrap: nowrap;
+        justify-content: unset;
     }
 
     .footer-input {
         width: 264px;
+    }
+
+    .subscribe-footer {
+        width: 496px;
     }
 
     .section-flex {
@@ -145,5 +154,22 @@
 
     .send-button {
         margin: 21px auto 0;
+    }
+
+    .menu-phone {
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    .icons-menu {
+        gap: 56px;
+    }
+
+    .checkbox-label1 {
+        font-size: 12px;
+    }
+
+    .customer-box {
+        width: 168px;
     }
 }
