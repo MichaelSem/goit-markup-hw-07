@@ -16,6 +16,10 @@
         padding: 24px 0;
     }
 
+    .contact-header-paddings {
+        font-size: 12px;
+    } 
+
     .contact-info-list {
         display: flex;
         flex-direction: column;
